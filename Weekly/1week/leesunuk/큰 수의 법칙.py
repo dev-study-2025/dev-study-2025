@@ -42,3 +42,8 @@ result += (count) * first # 가장 큰 수 더하기
 result += (m - count) * second # 두 번쨰로 큰 수 더하기 
 
 print(result) # 최종 답안 출력
+
+
+
+
+# CS 제출 https://leesunuk.tistory.com/176
