@@ -25,3 +25,8 @@ for i in range(N):
     result = max(result, min_value)
 
 print(result) 
+
+
+
+
+# CS 제출 https://leesunuk.tistory.com/177
