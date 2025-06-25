@@ -12,3 +12,6 @@ while n > 1 :
     count+=1
 
 print(count)
+
+
+# CS 제출 https://leesunuk.tistory.com/178
