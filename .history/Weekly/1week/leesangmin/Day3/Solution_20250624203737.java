@@ -1,20 +1,3 @@
-# 🔍 두 번째로 큰 최소값 찾기
-
-## 📌 문제 설명
-여러 줄(`int[][] cards`)로 구성된 숫자 카드 배열이 주어집니다.  
-각 줄에서 가장 작은 수를 하나씩 고른 뒤,  
-그 고른 숫자들 중 **두 번째로 큰 값을 반환**하세요.
-
-- 각 줄에서 최소값을 선택합니다.
-- 중복된 값은 하나만 취급합니다.
-- 전체 최소값들 중 두 번째로 큰 값을 구합니다.
-- 만약 두 번째로 큰 값이 존재하지 않으면 예외를 발생시킵니다.
-
----
-
-## ✅ 풀이 코드
-
-```java
 import java.util.*;
 import java.util.stream.*;
 
@@ -25,14 +8,14 @@ public class Solution {
             int min = Arrays.stream(row).min().orElse(Integer.MAX_VALUE);
             mins.add(min);
         }
-
+    
         List<Integer> sorted = new ArrayList<>(mins);
         sorted.sort(Comparator.reverseOrder());
-
+    
         if (sorted.size() < 2) {
             throw new IllegalArgumentException("두 번째로 큰 값이 존재하지 않습니다.");
         }
-
+    
         return sorted.get(1);
     }
 
@@ -43,6 +26,6 @@ public class Solution {
             {2, 2, 2}
         };
         Solution s = new Solution();
-        System.out.println(s.solution(cards)); // 출력: 2
+        System.out.println(s.solution(cards));
     } 
 }
