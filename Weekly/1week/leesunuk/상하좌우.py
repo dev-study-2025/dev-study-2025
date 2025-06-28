@@ -46,3 +46,6 @@ for plan in plans:
         x, y = nx, ny
 
 print(x, y)
+
+
+# CS 제출 - https://leesunuk.tistory.com/179
