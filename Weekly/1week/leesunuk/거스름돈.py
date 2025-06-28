@@ -33,3 +33,6 @@ for coin in [500, 100, 50, 10]:
     n %= coin            # 남은 금액으로 넘어감
 
 print(count)
+
+
+#CS 제출 -
