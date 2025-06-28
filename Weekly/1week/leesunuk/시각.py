@@ -24,3 +24,6 @@ for h in range(n + 1):
         for s in range(60):
             if has_three(h, m, s):
                 count += 1
+
+
+#CS 제출 - https://leesunuk.tistory.com/180
