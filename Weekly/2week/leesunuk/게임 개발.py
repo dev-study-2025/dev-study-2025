@@ -54,3 +54,5 @@ while True:
 
 # 9. 결과 출력
 print(count)
+
+# CS 제출 - https://leesunuk.tistory.com/183
